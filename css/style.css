@@ -1,0 +1,75 @@
+.head{
+    background-color: steelblue;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+body{
+margin: 0px;
+padding: 0px;
+}
+
+.container{
+    display: flex
+}
+
+.uno{
+    margin: 10px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-size: larger;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+
+}
+.dos{
+    margin: 10px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+}
+.tres{
+    margin: 10px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-size: smaller;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+}
+
+button{
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    background-color: #3498db;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+
+    
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+.boton:hover{
+    transform: scale(0.7)
+}
+
+.uno:hover{
+    background-color: rgb(206, 98, 98);
+}
+
+.dos:hover{
+    background-color: rgb(106, 201, 233);
+}
+
+.tres:hover{
+    background-color: rgb(95, 219, 95);
+}
